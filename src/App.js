@@ -1,17 +1,48 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React, {useState, useEffect} from 'react';
+import Nav from '../src/components/Nav';
+// import Footer from '../src/components/Footer';
+import About from '../src/components/About';
+import Portfolio from '../src/components/Portfolio';
+import Resume from '../src/components/Resume';
+import Contact from '../src/components/Contact';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+function App() {
+  // use state to track which page is being currently render
+  const [currentPage, setCurrentPage] = useState("About");
+  // use effect to change the title of the page when currentPage state is updated
+  useEffect(() => {
+    document.title= currentPage;
+  }, [currentPage]);
+  // render a page when the currentPage state is various options
+  const renderPage = () => {
+    if (currentPage === "About") {
+      return <About/>
+    }
+    if (currentPage === "Portfolio") {
+      return <Portfolio/>
+    }
+    if (currentPage === "Resume") {
+      return <Resume/>
+    }
+    if (currentPage === "Contact") {
+      return <Contact/>
+    }
+  }
+  // function that handles the page change
+  const handlePageChange = (page) => setCurrentPage(page);
+  return (
+    <div className="App">
+      <body>
+        <Nav currentPage={currentPage} handlePageChange={handlePageChange}></Nav>
+        <main>{renderPage()}</main>
+        {/* <Footer></Footer> */}
+      </body>
+      
+    </div>
+  );
+}
+
+export default App;
