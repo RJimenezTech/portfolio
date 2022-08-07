@@ -9,11 +9,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 .flex-row {
   display: flex;
   flex-wrap: wrap;
@@ -33,6 +28,10 @@ footer {
   color: black;
   text-decoration: none;
   font-family: 'Chirp', sans-serif;
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header > h2 {
@@ -68,6 +67,14 @@ nav {
   text-decoration: underline;
   font-weight: bold !important;
 }
+
+.hero-image {
+  text-align: center;
+  margin: 25px;
+  max-width: 60%;
+  height: 100%;
+}
+
 
 
 
