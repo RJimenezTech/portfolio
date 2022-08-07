@@ -2,11 +2,9 @@ import React from "react";
 
 function Nav({currentPage, handlePageChange}) {
   return (
-    <header className="flex-row px-1 header-text">
-      <h2 className="header-text">
-        <a href="/" className="header-text">
-          Robert Jimenez
-        </a>
+    <header className="flex-row px-1 py-2">
+      <h2 className="header-text mx-2">
+        Robert Jimenez     
       </h2>
       <nav>
         <ul className="flex-row">

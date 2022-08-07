@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import Nav from '../src/components/Nav';
-// import Footer from '../src/components/Footer';
+import Footer from '../src/components/Footer';
 import About from '../src/components/About';
 import Portfolio from '../src/components/Portfolio';
 import Resume from '../src/components/Resume';
@@ -35,10 +35,10 @@ function App() {
   const handlePageChange = (page) => setCurrentPage(page);
   return (
     <div className="App">
-      <body>
+      <body className="App">
         <Nav currentPage={currentPage} handlePageChange={handlePageChange}></Nav>
         <main>{renderPage()}</main>
-        {/* <Footer></Footer> */}
+        <Footer></Footer>
       </body>
       
     </div>
