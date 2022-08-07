@@ -6,8 +6,9 @@ import Portfolio from '../src/components/Portfolio';
 import Resume from '../src/components/Resume';
 import Contact from '../src/components/Contact';
 
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
+
 
 function App() {
   // use state to track which page is being currently render

@@ -1,5 +1,5 @@
 * {
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 body {
@@ -36,7 +36,7 @@ footer {
 }
 
 header > h2 {
-  color: red;
+  color: black;
   /* margin-top: 5px */
 }
 
@@ -45,26 +45,28 @@ ul {
   display: flex;
   justify-content:space-around ;
   align-items: center;
+  margin-right: 1rem;
+  margin-top: 10px !important;
 }
 
 li {
   list-style: none;
 }
 
-nav {
+nav { 
+  text-align: center;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 }
 
 .nav-link {
-  color: black;
+  color: black !important;
 }
 
 .active {
-  color: white;
   text-decoration: underline;
-  font-weight: bold;
+  font-weight: bold !important;
 }
 
 
