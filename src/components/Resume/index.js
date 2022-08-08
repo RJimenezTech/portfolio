@@ -1,9 +1,81 @@
-import React from 'react';
-
+import React from "react";
+import resume from '../../assets/Robert-Jimenez-Resume.pdf';
 function Resume() {
-    return (
-        <h2> This is the Resume page</h2>
-    )
+  return (
+    <div id="resume" className="resume">
+      <p>Download resume here:&nbsp;
+        <a href={resume}
+        download='robertjimenezresume.pdf'>
+           Resume
+        </a>
+      </p>
+      <div className="horizontal">
+      <hr></hr>  
+      </div>
+
+      <section>
+        <h4>Education</h4>
+            <ul>
+                <li>Full-Stack Web Development Bootcamp, Rice University - 2022</li>
+                <li>
+                B.S. Mechanical Engineering, The University of Texas at Austin - 2011
+                </li>
+            </ul>  
+      </section>
+      <div className="horizontal">
+      <hr></hr>  
+      </div>
+      <section>
+        <h4>Experience</h4>
+            <ul>
+                <li>Safety Engineer, Flexitallic-US, LLC - 2017-Present</li>
+                <li>Manufacturing Engineer, Freudenberg OGT, 2012-2016</li>
+            </ul>
+      </section>
+      <div className="horizontal">
+      <hr></hr>  
+      </div>
+      <section>
+        <h4>Skills</h4>
+        <h5>Languagues</h5>
+            <ul>
+                <li>JavaScript with Node and Express</li>
+                <li>SQL: MySQL/Sequelize</li>
+                <li>NoSQL: MongoDB/Mongoose</li>
+            </ul>
+        <h5>Libraries/Frameworks</h5>
+            <ul>
+                <li>React</li>
+                <li>Bootstrap</li>
+                <li>Bulma</li>
+                <li>jQuery</li>
+                <li>Jest</li>
+            </ul>
+        <h5>Processes</h5>
+            <ul>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>Agile development</li>
+                <li>Test-driven development</li>
+                <li>Safety Risk Assessment</li>
+                <li>Rubber Molding</li>
+            </ul>      
+      </section>
+      <div className="horizontal">
+      <hr></hr>  
+      </div>
+      <section>
+        <h4>Human Languages</h4>
+        <ul>
+            <li>English (Native)</li>
+            <li>Spanish (Intermediate)</li>
+            <li>Arabic (Beginner)</li>
+        </ul>
+      </section>
+        
+      
+    </div>
+  );
 }
 
 export default Resume;

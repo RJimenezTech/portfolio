@@ -1,17 +1,29 @@
-* {
-  /* outline: 1px solid red; */
-}
+/* * {
+  outline: 1px solid red;
+} */
 
 body {
   margin: 0;
   font-family: 'Chirp', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+}
+
+.horizontal {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.horizontal hr {
+  width: 80%
 }
 
 header {
@@ -94,7 +106,29 @@ nav {
 
 .about-text p {
   min-width: 100%;
+  text-align:justify;
 }
 
+.resume section{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
+.resume section h4 {
+  width: 100%;
+}
 
+.resume section ul{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume li {
+  width: 100%;
+}
