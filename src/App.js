@@ -12,14 +12,14 @@ import './App.css';
 
 function App() {
   // use state to track which page is being currently render
-  const [currentPage, setCurrentPage] = useState("About");
+  const [currentPage, setCurrentPage] = useState("About Me");
   // use effect to change the title of the page when currentPage state is updated
   useEffect(() => {
     document.title= currentPage;
   }, [currentPage]);
   // render a page when the currentPage state is various options
   const renderPage = () => {
-    if (currentPage === "About") {
+    if (currentPage === "About Me") {
       return <About/>
     }
     if (currentPage === "Portfolio") {
@@ -38,7 +38,10 @@ function App() {
     <div className="App">
       <body className="App">
         <Nav currentPage={currentPage} handlePageChange={handlePageChange}></Nav>
-        <main>{renderPage()}</main>
+        <main> 
+          <h2>{currentPage}</h2>
+          {renderPage()}
+          </main>
         <Footer></Footer>
       </body>
       

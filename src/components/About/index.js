@@ -3,28 +3,25 @@ import coverImage from "../../assets/images/cover-image.jpg";
 
 function About() {
   return (
-    <section className="about-me my-5">
-      <h1 id="about" className="about-header">About Me</h1>
-      <div className="about-content">
+    <section className="about-me">
         <div>
           <img
             src={coverImage}
-            className="my-2 about-image"
+            className="about-image"
             alt="headshot"/>
         </div>
-        
-        <div className="my-2 about-text">
-          <p>My name is Robert Jimenez. I'm a software and web developer.</p>
+        <div className="about-text">
+          <p>My name is Robert Jimenez. I'm a software and web developer specializing in the MERN stack.</p>
           <p>
             I'm an inquisitive and motivated engineer with tons of project
             experience from a coding bootcamp on top of 10+ years of experience in
             manufacturing. I'm always seeking to improve my backend programming
             dexterity while maintaining frontend skills. I've taken up coding and
-            web development in recent years. Check out my portfolio at the link
-            above and my GitHub profile at the link below.
+            web development in recent years. Check out my portfolio for examples of my previous projects.
+            Contact me if you want to collaborate.
           </p>
           <p> 
-            Currently working as Safety Engineer, training and designing safety
+            I'm currently working as Safety Engineer, training and designing safety
             features for machines in the gasket manufacturing industry with
             extensive OSHA compliance experience. I also have substantial rubber
             processing and rubber mold design experiwnce in the oil and gas
@@ -43,7 +40,6 @@ function About() {
           </p>
 
         </div>
-      </div>
     </section>
   );
 }

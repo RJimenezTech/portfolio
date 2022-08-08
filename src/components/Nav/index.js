@@ -11,9 +11,9 @@ function Nav({currentPage, handlePageChange}) {
             <li className="mx-2">
                 <a 
                 href="#about"
-                onClick={()=>handlePageChange("About")}
+                onClick={()=>handlePageChange("About Me")}
                 // this link changes to active once clicked
-                className={currentPage === "About" ? "nav-link active" : "nav-link"}
+                className={currentPage === "About Me" ? "nav-link active" : "nav-link"}
                 >
                 About
                 </a>
