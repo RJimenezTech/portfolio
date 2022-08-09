@@ -39,7 +39,7 @@ function App() {
       <body className="App">
         <Nav currentPage={currentPage} handlePageChange={handlePageChange}></Nav>
         <main> 
-          <h2>{currentPage}</h2>
+          <h2 id={currentPage} className="my-2">{currentPage}</h2>
           {renderPage()}
           </main>
         <Footer></Footer>

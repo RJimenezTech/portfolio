@@ -2,8 +2,8 @@ import React from "react";
 import resume from '../../assets/Robert-Jimenez-Resume.pdf';
 function Resume() {
   return (
-    <div id="resume" className="resume">
-      <p>Download resume here:&nbsp;
+    <div className="resume">
+      <p>Download here:&nbsp;
         <a href={resume}
         download='robertjimenezresume.pdf'>
            Resume
@@ -17,8 +17,7 @@ function Resume() {
         <h4>Education</h4>
             <ul>
                 <li>Full-Stack Web Development Bootcamp, Rice University - 2022</li>
-                <li>
-                B.S. Mechanical Engineering, The University of Texas at Austin - 2011
+                <li>B.S. Mechanical Engineering, The University of Texas at Austin - 2011
                 </li>
             </ul>  
       </section>
@@ -37,13 +36,13 @@ function Resume() {
       </div>
       <section>
         <h4>Skills</h4>
-        <h5>Languagues</h5>
+        <h6>Languagues</h6>
             <ul>
                 <li>JavaScript with Node and Express</li>
                 <li>SQL: MySQL/Sequelize</li>
                 <li>NoSQL: MongoDB/Mongoose</li>
             </ul>
-        <h5>Libraries/Frameworks</h5>
+        <h6>Libraries/Frameworks</h6>
             <ul>
                 <li>React</li>
                 <li>Bootstrap</li>
@@ -51,7 +50,7 @@ function Resume() {
                 <li>jQuery</li>
                 <li>Jest</li>
             </ul>
-        <h5>Processes</h5>
+        <h6>Processes</h6>
             <ul>
                 <li>Git</li>
                 <li>GitHub</li>
