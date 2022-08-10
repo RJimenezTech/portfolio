@@ -2,7 +2,7 @@ import React from "react";
 
 function Nav({currentPage, handlePageChange}) {
   return (
-    <header className="flex-row px-1 py-2">
+    <header className="d-flex justify-content-between alignt-center px-1 py-2">
       <h2 className="header-text mx-2">
         Robert Jimenez     
       </h2>

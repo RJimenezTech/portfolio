@@ -10,11 +10,6 @@ body {
   
 }
 
-.flex-row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .horizontal {
   width: 100%;
   display: flex;
@@ -28,9 +23,6 @@ body {
 
 header {
   background: lightblue;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 footer {
