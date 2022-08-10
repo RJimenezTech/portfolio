@@ -32,7 +32,7 @@ function Footer () {
                         </a>
                     </h2>
                 </div> 
-                <div className="col-12 my-1">&copy; Robert Jimenez {year()}</div> 
+                <div className="col-12 my-1">&copy; Robert Jimenez {year()} - Made by hand <i className="bi bi-emoji-smile"></i></div> 
             </div>
         </footer>
     )
