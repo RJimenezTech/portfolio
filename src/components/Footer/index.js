@@ -7,7 +7,7 @@ function Footer () {
     }
 
     return (
-        <footer>
+        <footer className="mt-5">
             <div className="row my-2 center-icons">
                 <div className="row col-12 my-2">
                     <h2 className="col-3">
