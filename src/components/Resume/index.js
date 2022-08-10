@@ -9,7 +9,7 @@ function Resume() {
            Resume
         </a>
       </p>
-      <div className="horizontal"><hr></hr></div>
+      <div className="d-flex justify-content-center"><hr className="w-25"></hr></div>
       <section>
         <h4>Education</h4>
             <ul>
@@ -18,7 +18,7 @@ function Resume() {
                 </li>
             </ul>  
       </section>
-      <div className="horizontal"><hr></hr></div>
+      <div className="d-flex justify-content-center"><hr className="w-25"></hr></div>
       <section>
         <h4>Experience</h4>
             <ul>
@@ -26,7 +26,7 @@ function Resume() {
                 <li>Manufacturing Engineer, Freudenberg OGT, 2012-2016</li>
             </ul>
       </section>
-      <div className="horizontal"><hr></hr></div>
+      <div className="d-flex justify-content-center"><hr className="w-25"></hr></div>
       <section>
         <h4>Skills</h4>
         <h6>Languagues</h6>
@@ -53,7 +53,7 @@ function Resume() {
                 <li>Rubber Molding</li>
             </ul>      
       </section>
-      <div className="horizontal"><hr></hr></div>
+      <div className="d-flex justify-content-center"><hr className="w-25"></hr></div>
       <section>
         <h4>Human Languages</h4>
         <ul>
