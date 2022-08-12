@@ -32,7 +32,6 @@ function Contact() {
                     </a>
                 </button>
             </div>
-            
         </section>
         
     )
