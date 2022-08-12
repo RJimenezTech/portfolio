@@ -23,7 +23,7 @@ function Contact() {
                 </button>
                 <button type="button" className="btn btn-light w-100 border border-dark m-2 fs-3">
                     <a className="text-decoration-none text-dark" href="https://twitter.com/rjimeneztech" target="_blank" rel='noreferrer noopener'>
-                    <i className="bi bi-twitter"></i> @rjimenezTech
+                    <i className="bi bi-twitter"></i> @RJimenezTech
                     </a>
                 </button>
                 <button type="button" className="btn btn-light w-100 border border-dark m-2 fs-3">
