@@ -1,3 +1,11 @@
+:root {
+  --primary: #de6600;
+  --secondary: #fea02f;
+  --tertiary: #ebd9c8;
+  --quarternary: #003f5a;
+  --quinary: #007a7a;
+}
+
 /* * {
   outline: 1px solid red;
 } */
@@ -8,18 +16,21 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 100%;
+  background-color: var(--tertiary) !important;
 }
 
 header {
-  background: lightblue;
+  background: var(--quarternary);
+  color: var(--primary) !important;
 }
 
 footer {
   width: 100%;
-  color: black;
+  color: var(--primary);
+  font-weight: bold;
   text-decoration: none;
   font-family: 'Chirp', sans-serif;
-  background: lightblue;
+  background: var(--quarternary);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,6 +50,11 @@ footer a:hover {
 footer a:active {
   font-weight: normal;
 }
+
+footer i {
+  color: var(--tertiary)
+}
+
 .center-icons {
   display: flex;
   flex-wrap: wrap;
@@ -46,7 +62,7 @@ footer a:active {
 }
 
 header > h2 {
-  color: black;
+  color: var(--primary) !important;
 }
 
 ul {
@@ -72,12 +88,15 @@ nav {
 }
 
 .nav-link {
-  color: black !important;
+  color: var(--primary) !important;
 }
 
 .active {
-  text-decoration: underline;
+  color: var(--tertiary) !important;
+  /* text-decoration: underline !important; */
+  text-decoration-color: var(--primary) !important;
   font-weight: bold !important;
+
 }
 
 .about-me {
@@ -145,18 +164,40 @@ nav {
   width: 100%;
 }
 
+.project-card {
+  border: 1px solid var(--primary); 
+  border-radius: 25px;
+  background-color: var(--quarternary);
+  color: var(--primary) !important;
+}
+
+.project-header {
+  color: var(--primary) !important;
+}
+
 .project-card:hover {
-  border-color: black !important;
+  opacity: 75%;
 }
 
 .contact-button {
   font-size: 4vw;
+  color: var(--primary) !important;
+}
+
+.btn {
+  background-color: var(--quarternary) !important;
+}
+
+.btn:hover {
+  background: var(--quinary) !important;
+  opacity: 85%;
 }
 
 .project-img {
   height: 50vw;
   width: 50vw;
 }
+
 @media screen and (min-width: 360px){
   .project-img {
     height: 60vw;
