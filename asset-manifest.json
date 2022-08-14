@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.11c2f7cb.css",
-    "main.js": "/portfolio/static/js/main.f84c3fd3.js",
-    "static/js/787.5bbc3188.chunk.js": "/portfolio/static/js/787.5bbc3188.chunk.js",
-    "static/media/headshot.jpg": "/portfolio/static/media/headshot.e10af7d9e2327175fa42.jpg",
-    "static/media/occasional-movie.png": "/portfolio/static/media/occasional-movie.349011f04b810cdb7530.png",
-    "static/media/tweezer-app.png": "/portfolio/static/media/tweezer-app.c942722dfe6f300242c7.png",
-    "static/media/Robert-Jimenez-Resume.pdf": "/portfolio/static/media/Robert-Jimenez-Resume.e78e8796f826b50a9012.pdf",
-    "static/media/workday-scheduler.png": "/portfolio/static/media/workday-scheduler.e77731007d8b8481d7cd.png",
-    "static/media/weather-dashboard.png": "/portfolio/static/media/weather-dashboard.5b019cb9b72d772fd3f1.png",
-    "static/media/habitual-tracker.png": "/portfolio/static/media/habitual-tracker.aca644b1477834534f77.png",
-    "static/media/cover-image.jpg": "/portfolio/static/media/cover-image.ff9699dde0c1ec14fd3f.jpg",
-    "index.html": "/portfolio/index.html",
-    "main.11c2f7cb.css.map": "/portfolio/static/css/main.11c2f7cb.css.map",
-    "main.f84c3fd3.js.map": "/portfolio/static/js/main.f84c3fd3.js.map",
-    "787.5bbc3188.chunk.js.map": "/portfolio/static/js/787.5bbc3188.chunk.js.map"
+    "main.css": "/static/css/main.11c2f7cb.css",
+    "main.js": "/static/js/main.ddff94e8.js",
+    "static/js/787.5bbc3188.chunk.js": "/static/js/787.5bbc3188.chunk.js",
+    "static/media/headshot.jpg": "/static/media/headshot.e10af7d9e2327175fa42.jpg",
+    "static/media/occasional-movie.png": "/static/media/occasional-movie.349011f04b810cdb7530.png",
+    "static/media/tweezer-app.png": "/static/media/tweezer-app.c942722dfe6f300242c7.png",
+    "static/media/Robert-Jimenez-Resume.pdf": "/static/media/Robert-Jimenez-Resume.e78e8796f826b50a9012.pdf",
+    "static/media/workday-scheduler.png": "/static/media/workday-scheduler.e77731007d8b8481d7cd.png",
+    "static/media/weather-dashboard.png": "/static/media/weather-dashboard.5b019cb9b72d772fd3f1.png",
+    "static/media/habitual-tracker.png": "/static/media/habitual-tracker.aca644b1477834534f77.png",
+    "static/media/cover-image.jpg": "/static/media/cover-image.ff9699dde0c1ec14fd3f.jpg",
+    "index.html": "/index.html",
+    "main.11c2f7cb.css.map": "/static/css/main.11c2f7cb.css.map",
+    "main.ddff94e8.js.map": "/static/js/main.ddff94e8.js.map",
+    "787.5bbc3188.chunk.js.map": "/static/js/787.5bbc3188.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.11c2f7cb.css",
-    "static/js/main.f84c3fd3.js"
+    "static/js/main.ddff94e8.js"
   ]
 }
