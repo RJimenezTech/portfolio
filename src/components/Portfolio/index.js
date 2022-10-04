@@ -10,31 +10,71 @@ function Portfolio() {
         <section className="container mb-5">
             <h3 className="my-4">Check out some of my projects below!</h3> 
             <div className="row d-flex justify-content-center justify-content-md-start align-items-center flex-wrap mb-5">
-                <a className="project-card col-8 col-md-6 col-lg-4 text-decoration-none text-body" 
-                href="https://tweezer-app.herokuapp.com/" target='_blank' rel='noreferrer noopener'>
+                <div className="project-card col-8 col-md-6 col-lg-4 text-decoration-none text-body">
                     <p className="project-header p-1 mb-0">Tweezer App - Twitter Clone</p>
-                    <img className="p-2 project-img mb-2" src={tweezer} alt="twitter clone"></img>
-                </a>
-                <a className="project-card col-8 col-md-6 col-lg-4 text-decoration-none text-body" 
-                href="https://habitualtracker.herokuapp.com/" target='_blank' rel='noreferrer noopener'>
+                    <a href="https://tweezer-app.herokuapp.com/" target='_blank' rel='noreferrer noopener'>
+                        <img className="project-img" src={tweezer} alt="twitter clone"></img>
+                    </a>
+                    <div className="project-footer">
+                        <a href="https://github.com/RJimenezTech/tweezer" target='_blank' rel='noreferrer noopener' 
+                        className="project-footer-txt p-1 mb-0 text-decoration-none">
+                        GitHub Repo
+                        </a> 
+                    </div>
+                </div>
+                
+
+                <div className="project-card col-8 col-md-6 col-lg-4 text-decoration-none text-body">
                     <p className="project-header p-1 mb-0">Habitual - Habit Tracker</p>
-                    <img className="p-2 project-img mb-2" src={habit} alt="habit tracker"></img>
-                </a>
-                <a className="project-card col-8 col-md-6 col-lg-4 text-decoration-none text-body" 
-                href="https://rjimeneztech.github.io/MovieFinder/" target='_blank' rel='noreferrer noopener'>
+                    <a href="https://habitualtracker.herokuapp.com/" target='_blank' rel='noreferrer noopener'>
+                        <img className="project-img" src={habit} alt="habit tracker"></img>
+                    </a>
+                    <div className="project-footer">
+                        <a href="https://github.com/RJimenezTech/habit-tracker" target='_blank' rel='noreferrer noopener' 
+                        className="project-footer-txt p-1 mb-0 text-decoration-none">
+                        GitHub Repo
+                        </a> 
+                    </div>
+                </div>
+
+                <div className="project-card col-8 col-md-6 col-lg-4 text-decoration-none text-body">
                     <p className="project-header p-1 mb-0">Occasional Movie - Movie Finder</p>
-                    <img className="p-2 project-img mb-2" src={occasional} alt="movie finder"></img>
-                </a>
-                <a className="project-card col-8 col-md-6 col-lg-4 text-decoration-none text-body" 
-                href="https://rjimeneztech.github.io/weather-dashboard/" target='_blank' rel='noreferrer noopener'>
-                    <p className="project-header p-1 mb-0">Weather Dashboard - Forecaster</p>
-                    <img className="p-2 project-img mb-2" src={weather} alt="weather app"></img>
-                </a>
-                <a className="project-card col-8 col-md-6 col-lg-4 text-decoration-none text-body" 
-                href="https://rjimeneztech.github.io/workday-scheduler/" target='_blank' rel='noreferrer noopener'>
+                    <a href="https://rjimeneztech.github.io/MovieFinder/" target='_blank' rel='noreferrer noopener'>
+                        <img className="project-img" src={occasional} alt="habit tracker"></img>
+                    </a>
+                    <div className="project-footer">
+                        <a href="https://github.com/RJimenezTech/MovieFinder" target='_blank' rel='noreferrer noopener' 
+                        className="project-footer-txt p-1 mb-0 text-decoration-none">
+                        GitHub Repo
+                        </a> 
+                    </div>
+                </div>
+                <div className="project-card col-8 col-md-6 col-lg-4 text-decoration-none text-body">
+                    <p className="project-header p-1 mb-0">Weather Dashboard - Weekly Forecaster</p>
+                    <a href="https://rjimeneztech.github.io/weather-dashboard/" target='_blank' rel='noreferrer noopener'>
+                        <img className="project-img" src={weather} alt="habit tracker"></img>
+                    </a>
+                    <div className="project-footer">
+                        <a href="https://github.com/RJimenezTech/weather-dashboard" target='_blank' rel='noreferrer noopener' 
+                        className="project-footer-txt p-1 mb-0 text-decoration-none">
+                        GitHub Repo
+                        </a> 
+                    </div>
+                </div>
+
+                <div className="project-card col-8 col-md-6 col-lg-4 text-decoration-none text-body">
                     <p className="project-header p-1 mb-0">Workday Schedule - Daily Agenda</p>
-                    <img className="p-2 project-img mb-2" src={schedule} alt="daily agenda"></img>
-                </a>   
+                    <a href="https://rjimeneztech.github.io/workday-scheduler/" target='_blank' rel='noreferrer noopener'>
+                        <img className="project-img" src={schedule} alt="habit tracker"></img>
+                    </a>
+                    <div className="project-footer">
+                        <a href="https://github.com/RJimenezTech/workday-scheduler" target='_blank' rel='noreferrer noopener' 
+                        className="project-footer-txt p-1 mb-0 text-decoration-none">
+                        GitHub Repo
+                        </a> 
+                    </div>
+                </div>
+
             </div>
 
         </section>
