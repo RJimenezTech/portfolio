@@ -39,7 +39,7 @@ function About() {
           className="about-image"
           alt="cartoon headshot"/>
       </div>
-      <div className="col-9 col-lg-7 about-text">
+      <div className="col-9 col-lg-7 about-text add-footer-cushion">
         <p className="fs-3 fw-bold">Personally,</p>
         <p>
           I am passionate about Language Learnings! HUMAN languages! Languages have become a large part of my life as a 

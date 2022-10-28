@@ -59,7 +59,7 @@ function Resume() {
             </ul>      
       </section>
       <div className="d-flex justify-content-center"><hr className="w-25"></hr></div>
-      <section>
+      <section className="add-footer-cushion">
         <h4>Human Languages</h4>
         <ul>
             <li>English (Native)</li>

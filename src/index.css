@@ -34,7 +34,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
+  position: fixed;
   bottom: 0;
 }
 
@@ -53,6 +53,10 @@ footer a:active {
 
 footer i {
   color: var(--tertiary)
+}
+
+.add-footer-cushion {
+  margin-bottom: 150px;
 }
 
 .center-icons {
@@ -203,7 +207,7 @@ nav {
 }
 
 svg:hover {
-  fill: var(--primary);
+  fill: var(--quinary);
 } 
 
 .link-icon {
