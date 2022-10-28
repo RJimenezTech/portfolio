@@ -168,6 +168,7 @@ nav {
   border: 1px solid var(--primary); 
   border-radius: 25px;
   background-color: var(--quarternary);
+  height: auto;
   display: flex !important;
   flex-wrap: wrap;
   justify-content: center;
@@ -175,17 +176,12 @@ nav {
 
 .project-header {
   width: 100%;
+  height: 50%;
   font-weight: bold;
   display: flex;
   justify-content: flex-start;
   color: var(--primary)
 }
-
-/* .project-main {
-  width: 100%;
-  display: flex;
-  justify-content: right !important;
-} */
 
 .project-img {
   border-radius: 10px;
@@ -193,6 +189,7 @@ nav {
 }
 .project-text {
   width: 100%;
+  height: 25%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -203,6 +200,14 @@ nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+svg:hover {
+  fill: var(--primary);
+} 
+
+.link-icon {
+  color: var(--primary);
 }
 
 .project-tech {
