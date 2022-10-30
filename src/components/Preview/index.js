@@ -11,9 +11,7 @@ function Preview(props) {
 
     return (
         <>
-        <a href="" className="link-icon" rel="noreferre noopener" onClick={handleShow}>
-            <p>Preview</p>
-        </a>
+        <p className="link-icon" onClick={handleShow}>Preview</p>
         <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>{name} Preview</Modal.Title>
