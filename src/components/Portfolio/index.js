@@ -4,14 +4,15 @@ import tweezer from "../../assets/images/projects/tweezer-app.png";
 import occasional from '../../assets/images/projects/occasional-movie.png';
 import weather from '../../assets/images/projects/weather-dashboard.png';
 import schedule from '../../assets/images/projects/workday-scheduler.png';
+import Preview from '../Preview';
 
 function Portfolio() {
     const projects = [
-        {id: "1", name: "Tweezer App", description: "A clone of the social media app Twitter", repo: "https://github.com/RJimenezTech/tweezer", link: "https://tweezer-app.herokuapp.com/", techs: ["Node.js", "GraphQL", "ReactJS"]},
-        {id: "2", name: "Habitual", description: "A habit tracking app for weekly habits", repo: "https://github.com/RJimenezTech/habit-tracker", link: "https://habitualtracker.herokuapp.com/", techs: ["Node.js", "Bulma","SQL", "Handlebars"]},
-        {id: "3", name: "Occasional Movie Finder", description: "Find a movie to match your night", repo: "https://github.com/RJimenezTech/MovieFinder", link: "https://rjimeneztech.github.io/MovieFinder/", techs: ["Node.js", "Vanilla JS", "Bulma","Free APIs"]},
-        {id: "4", name: "Weather Dashboard", description: "Search forecast for any city worldwide", repo: "https://github.com/RJimenezTech/tweezer", link: "https://tweezer-app.herokuapp.com/", techs: ["Node.js", "Bootstrap", "Free APIs"]},
-        {id: "5", name: "Workday Schedule", description: "Interactive scheduler for a busy workday", repo: "https://rjimeneztech.github.io/workday-scheduler/", link: "https://rjimeneztech.github.io/workday-scheduler/", techs: ["Node.js", "Bootstrap", "jQuery"]},
+        {id: "1", name: "Tweezer App", description: "A clone of the social media app Twitter", repo: "https://github.com/RJimenezTech/tweezer", link: "https://tweezer-app.herokuapp.com/", techs: ["Node.js", "GraphQL", "ReactJS"], image: tweezer},
+        {id: "2", name: "Habitual", description: "A habit tracking app for weekly habits", repo: "https://github.com/RJimenezTech/habit-tracker", link: "https://habitualtracker.herokuapp.com/", techs: ["Node.js", "Bulma","SQL", "Handlebars"], image: habit},
+        {id: "3", name: "Occasional Movie Finder", description: "Find a movie to match your night", repo: "https://github.com/RJimenezTech/MovieFinder", link: "https://rjimeneztech.github.io/MovieFinder/", techs: ["Node.js", "Vanilla JS", "Bulma","Free APIs"], image: occasional},
+        {id: "4", name: "Weather Dashboard", description: "Search forecast for any city worldwide", repo: "https://github.com/RJimenezTech/weather-dashboard", link: "https://rjimeneztech.github.io/weather-dashboard/", techs: ["Node.js", "Bootstrap", "Free APIs"], image: weather},
+        {id: "5", name: "Workday Schedule", description: "Interactive scheduler for a busy workday", repo: "https://rjimeneztech.github.io/workday-scheduler/", link: "https://rjimeneztech.github.io/workday-scheduler/", techs: ["Node.js", "Bootstrap", "jQuery"], image: schedule},
     ]
 
     return (
@@ -28,6 +29,11 @@ function Portfolio() {
                         ))}
                     </div>
                     <div className="project-links mx-1 mt-1">
+                            <Preview 
+                            name={project.name} 
+                            description={project.description} 
+                            image={project.image}>
+                            </Preview>
                         <a className="mx-2 link-icon" href={project.link} target="_blank" rel="noreferrer noopener">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="var(--tertiary)" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
@@ -43,7 +49,7 @@ function Portfolio() {
                 </div>
             ))}
                 
-
+            <div className="add-footer-cushion"></div>
             </div>
 
         </section>
